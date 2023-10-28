@@ -19,7 +19,7 @@ export default function Chocklate({ chocklate }) {
             <span key={i}>{i},</span>
           ))}
         </p>
-        <button>Gift Me</button>
+        <button>Gift me</button>
       </div>
     </div>
   );

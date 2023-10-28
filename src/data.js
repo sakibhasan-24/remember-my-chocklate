@@ -181,6 +181,26 @@ const chocolates = [
     ],
   },
   {
+    name: "Peanut Butter Chocolate",
+    brand: "Reese's",
+    flavor: "Nutty and Salty",
+    weight: "120g",
+    price: 4.29,
+    imageUrl:
+      "https://beamingbaker.com/wp-content/uploads/2018/03/IGT1-3-Ingredient-Chocolate-Almond-Bark-Recipe-Vegan-Gluten-Free-Paleo-Dairy-Free-1.jpg",
+    interestingFact:
+      "Peanut butter chocolate combines the creaminess of peanut butter with the sweetness of chocolate.",
+    ingredients: [
+      "Peanuts",
+      "Sugar",
+      "Milk Chocolate",
+
+      "Dextrose",
+      "Salt",
+      "TBHQ and Citric Acid",
+    ],
+  },
+  {
     name: "Coconut Chocolate",
     brand: "Bounty",
     flavor: "Tropical and Sweet",
@@ -196,25 +216,6 @@ const chocolates = [
       "Glucose Syrup",
       "Cocoa Mass",
       "Cocoa Butter",
-    ],
-  },
-  {
-    name: "Peanut Butter Chocolate",
-    brand: "Reese's",
-    flavor: "Nutty and Salty",
-    weight: "120g",
-    price: 4.29,
-    imageUrl:
-      "https://beamingbaker.com/wp-content/uploads/2018/03/IGT1-3-Ingredient-Chocolate-Almond-Bark-Recipe-Vegan-Gluten-Free-Paleo-Dairy-Free-1.jpg",
-    interestingFact:
-      "Peanut butter chocolate combines the creaminess of peanut butter with the sweetness of chocolate.",
-    ingredients: [
-      "Milk Chocolate",
-      "Peanuts",
-      "Sugar",
-      "Dextrose",
-      "Salt",
-      "TBHQ and Citric Acid",
     ],
   },
 ];
