@@ -3,11 +3,15 @@ import chocolates from "../../data";
 import { useEffect } from "react";
 import Chocklate from "../Chocklate/Chocklate";
 import "./Chocklates.css";
+import { getValue, setValueInLocalStorage } from "../../storage";
 export default function Chocklates() {
-  const [price, setPrice] = useState(0);
-
+  const [price, setPrice] = useState(Number(getValue("total")));
   const handleCalculateTotalPrice = (chocklate) => {
     setPrice(Number((price + chocklate.price).toFixed(2)));
+    setValueInLocalStorage(
+      "total",
+      Number((price + chocklate.price).toFixed(2))
+    );
   };
 
   return (

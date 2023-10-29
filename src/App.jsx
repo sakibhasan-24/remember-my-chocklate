@@ -13,3 +13,8 @@ function App() {
 }
 
 export default App;
+// let's challenge local storage
+
+// check if already exist in the localStorage or not
+// if exist then push item on there or create a new card
+// show data initillay after check in local storage
