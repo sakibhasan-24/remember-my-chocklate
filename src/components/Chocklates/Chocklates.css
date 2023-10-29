@@ -1,9 +1,24 @@
+.whole-container {
+  width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 5rem;
+}
+
 .chocklates {
   width: 1000px;
   margin: 2rem auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
+}
+.total-price {
+  background-color: rgb(54, 132, 54);
+  color: #fff;
+  border-radius: 20px;
+  padding: 0.7rem 0.9rem;
+  line-break: loose;
 }
 @media only screen and (max-width: 600px) {
   .chocklates {

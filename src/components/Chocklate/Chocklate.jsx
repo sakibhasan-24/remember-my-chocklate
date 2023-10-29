@@ -1,7 +1,8 @@
 import "./chocklate.css";
 
-export default function Chocklate({ chocklate }) {
-  console.log(chocklate);
+export default function Chocklate({ chocklate, handleCalculateTotalPrice }) {
+  // console.log(chocklate);
+
   return (
     <div className="choclate">
       <div className="image-container">
@@ -19,7 +20,9 @@ export default function Chocklate({ chocklate }) {
             <span key={i}>{i},</span>
           ))}
         </p>
-        <button>Gift me</button>
+        <button onClick={() => handleCalculateTotalPrice(chocklate)}>
+          Gift me
+        </button>
       </div>
     </div>
   );
