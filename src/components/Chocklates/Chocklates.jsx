@@ -1,6 +1,5 @@
 import { useState } from "react";
 import chocolates from "../../data";
-import { useEffect } from "react";
 import Chocklate from "../Chocklate/Chocklate";
 import "./Chocklates.css";
 import { getValue, setValueInLocalStorage } from "../../storage";
